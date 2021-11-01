@@ -30,6 +30,15 @@ for i in l_line:
     print(i)
 direct.close()
 
+# x name test
+direct = open('C:/Users/user/PycharmProjects/Data Science Bootcamp/Input/student_names.txt', 'r')
+name = "Mason Smith"
+lines = direct.readline()
+l_line = lines
+for i in l_line:
+    if l_line == name:
+        break
+
 # generate files
 
 files_names = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'T', 'O', 'P', 'U', 'V', 'W', 'X', 'Y', 'Z']
